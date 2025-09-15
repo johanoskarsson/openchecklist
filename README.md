@@ -12,7 +12,10 @@ I got fed up with having to abandon one app after another when they either added
 Currently supports iOS and MacOs
 
 # TODOs
-It'd be nice to be able to share a checklist between users
+* It'd be nice to be able to share a checklist between users
+* Manually ordering of the items
+* Icon
+* Publish to app store I guess
 
 # License
 Apache v2
