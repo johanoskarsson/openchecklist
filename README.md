@@ -15,6 +15,7 @@ Currently supports iOS and MacOs
 * Manually ordering of the items
 * Publish to app store I guess
 * It'd be nice to be able to share a checklist between users
+* Make the app not look like shit
 
 # License
 Apache v2
