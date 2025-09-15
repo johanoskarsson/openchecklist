@@ -1,6 +1,6 @@
 //
-//  OpenChecklistApp.swift
-//  OpenChecklist
+//  OpenChecklistMacApp.swift
+//  OpenChecklistMac
 //
 //  Created by Johan Oskarsson on 9/15/25.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct OpenChecklistApp: App {
+struct OpenChecklistMacApp: App {
     @StateObject private var authManager = AuthenticationManager()
 
     var sharedModelContainer: ModelContainer = {
@@ -20,7 +20,8 @@ struct OpenChecklistApp: App {
         let modelConfiguration = ModelConfiguration(
             schema: schema,
             isStoredInMemoryOnly: false,
-            cloudKitDatabase: .automatic
+            groupContainer: .identifier("group.nu.oskarsson.OpenChecklist"),
+            cloudKitDatabase: .automatic,
         )
 
         do {

@@ -21,17 +21,47 @@
 			remoteGlobalIDString = 55FCCCFE2E78889500133C6C;
 			remoteInfo = OpenChecklist;
 		};
+		55FCCD542E78943500133C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FCCCF72E78889500133C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FCCD432E78943400133C6C;
+			remoteInfo = OpenChecklistMac;
+		};
+		55FCCD5E2E78943500133C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FCCCF72E78889500133C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FCCD432E78943400133C6C;
+			remoteInfo = OpenChecklistMac;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		55FCCCFF2E78889500133C6C /* OpenChecklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenChecklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCCD0F2E78889600133C6C /* OpenChecklistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChecklistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCCD192E78889600133C6C /* OpenChecklistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChecklistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCCD442E78943400133C6C /* OpenChecklistMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenChecklistMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCCD532E78943500133C6C /* OpenChecklistMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChecklistMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCCD5D2E78943500133C6C /* OpenChecklistMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChecklistMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		55FCCD3D2E7890CD00133C6C /* Exceptions for "OpenChecklist" folder in "OpenChecklist" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55FCCCFE2E78889500133C6C /* OpenChecklist */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		55FCCD012E78889500133C6C /* OpenChecklist */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				55FCCD3D2E7890CD00133C6C /* Exceptions for "OpenChecklist" folder in "OpenChecklist" target */,
+			);
 			path = OpenChecklist;
 			sourceTree = "<group>";
 		};
@@ -43,6 +73,21 @@
 		55FCCD1C2E78889600133C6C /* OpenChecklistUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = OpenChecklistUITests;
+			sourceTree = "<group>";
+		};
+		55FCCD452E78943400133C6C /* OpenChecklistMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenChecklistMac;
+			sourceTree = "<group>";
+		};
+		55FCCD562E78943500133C6C /* OpenChecklistMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenChecklistMacTests;
+			sourceTree = "<group>";
+		};
+		55FCCD602E78943500133C6C /* OpenChecklistMacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenChecklistMacUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +114,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55FCCD412E78943400133C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD502E78943500133C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD5A2E78943500133C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +144,9 @@
 				55FCCD012E78889500133C6C /* OpenChecklist */,
 				55FCCD122E78889600133C6C /* OpenChecklistTests */,
 				55FCCD1C2E78889600133C6C /* OpenChecklistUITests */,
+				55FCCD452E78943400133C6C /* OpenChecklistMac */,
+				55FCCD562E78943500133C6C /* OpenChecklistMacTests */,
+				55FCCD602E78943500133C6C /* OpenChecklistMacUITests */,
 				55FCCD002E78889500133C6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +157,9 @@
 				55FCCCFF2E78889500133C6C /* OpenChecklist.app */,
 				55FCCD0F2E78889600133C6C /* OpenChecklistTests.xctest */,
 				55FCCD192E78889600133C6C /* OpenChecklistUITests.xctest */,
+				55FCCD442E78943400133C6C /* OpenChecklistMac.app */,
+				55FCCD532E78943500133C6C /* OpenChecklistMacTests.xctest */,
+				55FCCD5D2E78943500133C6C /* OpenChecklistMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +235,74 @@
 			productReference = 55FCCD192E78889600133C6C /* OpenChecklistUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		55FCCD432E78943400133C6C /* OpenChecklistMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCCD652E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMac" */;
+			buildPhases = (
+				55FCCD402E78943400133C6C /* Sources */,
+				55FCCD412E78943400133C6C /* Frameworks */,
+				55FCCD422E78943400133C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				55FCCD452E78943400133C6C /* OpenChecklistMac */,
+			);
+			name = OpenChecklistMac;
+			packageProductDependencies = (
+			);
+			productName = OpenChecklistMac;
+			productReference = 55FCCD442E78943400133C6C /* OpenChecklistMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55FCCD522E78943500133C6C /* OpenChecklistMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCCD682E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMacTests" */;
+			buildPhases = (
+				55FCCD4F2E78943500133C6C /* Sources */,
+				55FCCD502E78943500133C6C /* Frameworks */,
+				55FCCD512E78943500133C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FCCD552E78943500133C6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55FCCD562E78943500133C6C /* OpenChecklistMacTests */,
+			);
+			name = OpenChecklistMacTests;
+			packageProductDependencies = (
+			);
+			productName = OpenChecklistMacTests;
+			productReference = 55FCCD532E78943500133C6C /* OpenChecklistMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55FCCD5C2E78943500133C6C /* OpenChecklistMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCCD6B2E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMacUITests" */;
+			buildPhases = (
+				55FCCD592E78943500133C6C /* Sources */,
+				55FCCD5A2E78943500133C6C /* Frameworks */,
+				55FCCD5B2E78943500133C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FCCD5F2E78943500133C6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55FCCD602E78943500133C6C /* OpenChecklistMacUITests */,
+			);
+			name = OpenChecklistMacUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenChecklistMacUITests;
+			productReference = 55FCCD5D2E78943500133C6C /* OpenChecklistMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +324,17 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 55FCCCFE2E78889500133C6C;
 					};
+					55FCCD432E78943400133C6C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					55FCCD522E78943500133C6C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 55FCCD432E78943400133C6C;
+					};
+					55FCCD5C2E78943500133C6C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 55FCCD432E78943400133C6C;
+					};
 				};
 			};
 			buildConfigurationList = 55FCCCFA2E78889500133C6C /* Build configuration list for PBXProject "OpenChecklist" */;
@@ -203,6 +354,9 @@
 				55FCCCFE2E78889500133C6C /* OpenChecklist */,
 				55FCCD0E2E78889600133C6C /* OpenChecklistTests */,
 				55FCCD182E78889600133C6C /* OpenChecklistUITests */,
+				55FCCD432E78943400133C6C /* OpenChecklistMac */,
+				55FCCD522E78943500133C6C /* OpenChecklistMacTests */,
+				55FCCD5C2E78943500133C6C /* OpenChecklistMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +377,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		55FCCD172E78889600133C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD422E78943400133C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD512E78943500133C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD5B2E78943500133C6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +428,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55FCCD402E78943400133C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD4F2E78943500133C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCD592E78943500133C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +461,16 @@
 			isa = PBXTargetDependency;
 			target = 55FCCCFE2E78889500133C6C /* OpenChecklist */;
 			targetProxy = 55FCCD1A2E78889600133C6C /* PBXContainerItemProxy */;
+		};
+		55FCCD552E78943500133C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55FCCD432E78943400133C6C /* OpenChecklistMac */;
+			targetProxy = 55FCCD542E78943500133C6C /* PBXContainerItemProxy */;
+		};
+		55FCCD5F2E78943500133C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55FCCD432E78943400133C6C /* OpenChecklistMac */;
+			targetProxy = 55FCCD5E2E78943500133C6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,6 +603,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenChecklist/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,6 +643,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenChecklist/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -553,6 +761,138 @@
 			};
 			name = Release;
 		};
+		55FCCD662E78943500133C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenChecklistMac/OpenChecklistMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55FCCD672E78943500133C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenChecklistMac/OpenChecklistMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		55FCCD692E78943500133C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenChecklistMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenChecklistMac";
+			};
+			name = Debug;
+		};
+		55FCCD6A2E78943500133C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenChecklistMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenChecklistMac";
+			};
+			name = Release;
+		};
+		55FCCD6C2E78943500133C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenChecklistMac;
+			};
+			name = Debug;
+		};
+		55FCCD6D2E78943500133C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4GNUU7H4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.oskarsson.OpenChecklistMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenChecklistMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,6 +928,33 @@
 			buildConfigurations = (
 				55FCCD2A2E78889600133C6C /* Debug */,
 				55FCCD2B2E78889600133C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCCD652E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCCD662E78943500133C6C /* Debug */,
+				55FCCD672E78943500133C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCCD682E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCCD692E78943500133C6C /* Debug */,
+				55FCCD6A2E78943500133C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCCD6B2E78943500133C6C /* Build configuration list for PBXNativeTarget "OpenChecklistMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCCD6C2E78943500133C6C /* Debug */,
+				55FCCD6D2E78943500133C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
