@@ -8,5 +8,11 @@ This is a simple checklist iOS and Mac app that supports:
 # Why?
 I got fed up with having to abandon one app after another when they either added advertising or paid features I did not need.
 
+# Platforms
+Currently supports iOS and MacOs
+
+# TODOs
+It'd be nice to be able to share a checklist between users
+
 # License
 Apache v2
